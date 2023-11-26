@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.register-page{
+    background-image: url(../img/login_page.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.content{
+    height: 200vh;
+    margin-top: 4rem;
+}
+
+.link-title{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color : #000;
+    opacity: 0.7;
+}
+
+.produk-img{
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.product-detail-price{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.produk-detail-subtitle-price{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.dashboard{
+   height: 100vh;
+}
+
+.link-photo-user-produk{
+    width: 3rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.user-produk-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}

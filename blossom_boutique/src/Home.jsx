@@ -1,11 +1,11 @@
 import React from 'react'
-import LayoutAdmin from './components/menu/LayoutAdmin'
+import LayoutUser from './components/menu/LayoutUser'
 
 const Home = () => {
   return (
-    <LayoutAdmin>
-      <h1>Home</h1>
-    </LayoutAdmin>
+    <LayoutUser>
+      
+    </LayoutUser>
   )
 }
 
