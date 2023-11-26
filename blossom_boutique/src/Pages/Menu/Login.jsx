@@ -42,6 +42,7 @@ const Login = () => {
                 sessionStorage.setItem('role', user.role)
                 sessionStorage.setItem('name', user.name)
                 sessionStorage.setItem('email', user.email)
+                sessionStorage.setItem('alamat', user.address)
                 if(user.role === 'admin'){
                     navigate('/admin/dashboard')
                 }
@@ -49,7 +50,7 @@ const Login = () => {
                   navigate('/users/dashboard')
                 }
                 else if (user.role === 'kurir'){
-                  navigate('/employe/dashboard')
+                  navigate('/kurir/dashboard')
                 }
             }
         })

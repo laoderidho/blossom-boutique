@@ -14,7 +14,7 @@ const Keranjang = () => {
         "https://6561ed2edcd355c0832456ad.mockapi.io/checkout"
       );
       const filteredData = res.data.filter(
-        (item) => item.id_user === idUser.toString()
+        (item) => item.id_user === idUser.toString() && item.keranjang === true
       ); // Sesuaikan dengan tipe data
       setDataKeranjang(filteredData);
     } catch (error) {

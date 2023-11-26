@@ -15,7 +15,6 @@ body{
 }
 
 .content{
-    height: 200vh;
     margin-top: 4rem;
 }
 
@@ -61,17 +60,56 @@ body{
 }
 
 .pages-jumbotron{
-    height: 100vh;
-    background-image: url(../img/menujumbotron.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 120vh;
+    background-image: url(../img/jumbotron_bg.webp);
 }
 
 .jumbotron-title{
     width: 50%;
+    font-size: 3rem;
 }
 
+.jumbotron-shadow{
+    height: 120vh;
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);; 
+}
+
+.subtitle-jumbotron{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.visi-misi{
+    background-image: url(https://i.pinimg.com/564x/22/2b/0e/222b0e85ad637b591b895c64fb150c47.jpg);
+    background-size: cover;
+}
+
+.visi-subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about_us{
+    width: 46rem;
+    height: 40rem;
+}
+
+.about_owner{
+    width: 33rem;
+    height: 40rem;
+    background-size: contain;
+}
 
 @media screen and (max-width: 768px){
+    .about_us{
+        width: 100%;
+        height: 100%;
+    }
     .title{
         font-size: 2rem;
     }

@@ -64,12 +64,6 @@ const LayoutAdmin = (props) => {
 
       <div>{props.children}</div>
 
-      <footer className="mt-5 bg-dark d-flex align-items-center justify-content-center p-3">
-        <p className="text-white m-0 text-center">
-          © 2023 The Blossom Boutique. Seluruh hak dilindungi oleh hukum. Dilarang
-          melakukan reproduksi tanpa izin tertulis.
-        </p>
-      </footer>
     </>
   );
 };
