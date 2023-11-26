@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import LayoutUser from "../../../components/users/LayoutUser";
 import axios from "axios";
-import { Card } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Keranjang = () => {
@@ -30,6 +30,7 @@ const Keranjang = () => {
     <LayoutUser>
       <h1 className="title mt-5 mx-3">Keranjang</h1>
 
+    <Row>
       {dataKeranjang.length > 0 &&
         dataKeranjang.map((item, index) => (
           <Card key={index} className="m-3 border-0 col-md-4">
@@ -51,6 +52,7 @@ const Keranjang = () => {
             </Card.Body>
           </Card>
         ))}
+    </Row>
     </LayoutUser>
   );
 };

@@ -16,7 +16,7 @@ import DashboardUser from "../components/users/DashboardUser"
 import UserSProduct from "../Pages/Users/Produk/UserSProduct"
 import DetailUsersProduk from "../Pages/Users/Produk/DetailUsersProduk"
 import Keranjang from "../Pages/Users/Keranjang/Keranjang"
-
+import Checkout from "../Pages/Users/Checkout/Checkout"
 
 const Router = () => {
   return (
@@ -41,6 +41,7 @@ const Router = () => {
         <Route path="/users/produk" element={<UserSProduct />} />
         <Route path="/users/produk/:id" element={<DetailUsersProduk />} />
         <Route path="/users/keranjang" element={<Keranjang />} />
+        <Route path="/users/checkout/:id" element={<Checkout />} />
 
       </Routes>
     </BrowserRouter>

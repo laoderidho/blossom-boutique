@@ -59,7 +59,7 @@ const LayoutUser = (props) => {
               ))}
 
             {username ? (
-              <NavDropdown title={username} className="text-dark">
+              <NavDropdown title={username} className="link-title">
                 <NavDropdown.Item onClick={handleLogout}>
                   Logout
                 </NavDropdown.Item>

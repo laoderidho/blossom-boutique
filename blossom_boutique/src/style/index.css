@@ -59,3 +59,46 @@ body{
     font-weight: 700;
     color: black;
 }
+
+.pages-jumbotron{
+    height: 100vh;
+    background-image: url(../img/menujumbotron.jpg);
+    background-size: cover;
+}
+
+.jumbotron-title{
+    width: 50%;
+}
+
+
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 2rem;
+    }
+
+    .link-photo-user-produk{
+        width: 3rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+    .link-title{
+        font-size: 1rem;
+    }
+
+    .product-detail-price{
+        font-size: 1rem;
+    }
+
+    .produk-detail-subtitle-price{
+        font-size: 0.8rem;
+    }
+
+    .user-produk-title{
+        font-size: 1rem;
+    }
+
+    .jumbotron-title{
+        width: 100%;
+    }
+}
