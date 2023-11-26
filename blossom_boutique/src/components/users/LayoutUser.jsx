@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Navbar, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, NavDropdown, Nav } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 
 
@@ -55,6 +55,11 @@ const LayoutUser = (props) => {
                 <NavDropdown.Item onClick={handleLogout}>
                   Logout
                 </NavDropdown.Item>
+                {/* <NavDropdown.Item>
+                   <Link to="/users/testimoni" className='nav-link'>
+                      Testimoni
+                   </Link>
+                </NavDropdown.Item> */}
               </NavDropdown>
             </Navbar.Collapse>
           </Container>
