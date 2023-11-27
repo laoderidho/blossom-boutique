@@ -16,9 +16,9 @@ const Home = () => {
       <MenuJumbotron />
       <VisiMisi />
       <AboutUs />
-      <Penilaian  />
       <WhyUs />
       <Produk />
+      <Penilaian  />
       <Kontak />
     </LayoutUser>
   )
