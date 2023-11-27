@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Card, Container } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import axios from 'axios'
 
 const Penilaian = () => {
@@ -20,7 +20,7 @@ const Penilaian = () => {
     }, [])
 
   return (
-    <div className="mt-5 mb-5">
+    <div id='penilaian' className="mt-5 mb-5">
       <h1 className="title">
         <u>Apa Kata Mereka ?</u>
       </h1>

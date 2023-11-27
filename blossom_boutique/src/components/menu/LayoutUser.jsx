@@ -44,9 +44,9 @@ const LayoutUser = (props) => {
             <a className="link-title m-2" href="#produk">
               Produk
             </a>
-            <Link className="link-title m-2" to="/admin/sale">
+            <a className="link-title m-2" href="#penilaian">
               Ulasan
-            </Link>
+            </a>
             <a className="link-title m-2" href="#kontak">
               Kontak
             </a>
