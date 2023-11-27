@@ -1,30 +1,39 @@
 import React from 'react'
 import visi_blossom from '../../img/visi_blossom.png'
 import misi_blossom from '../../img/misi_blossom.png'
-import { Container } from 'react-bootstrap'
+import {Row, Col} from 'react-bootstrap'
 
 const VisiMisi = () => {
   return (
-    <div id='visimisi' className="visi-misi p-5">
-      <div className="w-50 mx-5">
-        <img src={visi_blossom} alt="" />
-        <p className="pt-5 visi-subtitle" data-aos="fade-up">
-          Menjadi toko bucket bunga terkemuka yang menyebarkan inspirasi &
-          kebahagiaan melalui kreasi bunga perusahaan kami yang indah dan
-          inovatif, serta memberikan pengalaman berbelanja yang menyenangka &
-          memuaskan
-        </p>
-      </div>
-      <div className="w-100 d-flex justify-content-end">
-        <div className="w-50 text-right">
-          <img src={misi_blossom} alt="" />
-          <p className="pt-5 visi-subtitle" data-aos="fade-up">
-            Misi kami adalah untuk menyebarkan kebahagiaan melalui kreasi bunga
-            yang indah dan inovatif, serta memberikan pengalaman berbelanja yang
-            menyenangkan & memuaskan
+    <div id="visimisi" className="">
+      <Row>
+        <Col className="visi d-flex justify-content-center flex-column align-items-center">
+          <h1 className="visi_misi_logo">
+            <i class="fa-solid fa-shield-halved"></i>
+          </h1>
+          <h1>Visi</h1>
+
+          <p className="text-center px-5 h5 mt-3">
+            Menjadi toko bucket bunga terkemuka yang menyebarkan inspirasi &
+            kebahagiaan melalui kreasi bunga perusahaan kami yang indah dan
+            inovatif, serta memberikan pengalaman berbelanja yang menyenangka &
+            memuaskan
           </p>
-        </div>
-      </div>
+        </Col>
+        <Col className="misi d-flex justify-content-center flex-column align-items-center">
+          <h1 className="text-white visi_misi_logo">
+            <i class="fa-solid fa-cube"></i>
+          </h1>
+
+          <h1 className="">Misi</h1>
+
+          <p className="text-center text-white px-5 mt-3 h5">
+            menyediakan bucket bunga berkualitas tinggi dengan desain kreatif
+            dan menarik, sambil menjaga komitmen terhadap kualitas keberlanjutan
+            lingkungan, dan kontribusi sosial.
+          </p>
+        </Col>
+      </Row>
     </div>
   );
 }
