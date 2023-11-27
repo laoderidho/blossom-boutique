@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import visi_blossom from '../../img/visi_blossom.png'
 import misi_blossom from '../../img/misi_blossom.png'
 import {Row, Col} from 'react-bootstrap'
 
 const VisiMisi = () => {
+
+  useEffect(() => {
+    window.AOS.init({
+      duration: 900,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
+
   return (
     <div id="visimisi" className="">
       <Row>
@@ -13,7 +22,7 @@ const VisiMisi = () => {
           </h1>
           <h1>Visi</h1>
 
-          <p className="text-center px-5 h5 mt-3">
+          <p className="text-center px-5 h5 mt-3" data-aos="fade-up">
             Menjadi toko bucket bunga terkemuka yang menyebarkan inspirasi &
             kebahagiaan melalui kreasi bunga perusahaan kami yang indah dan
             inovatif, serta memberikan pengalaman berbelanja yang menyenangka &
@@ -27,7 +36,7 @@ const VisiMisi = () => {
 
           <h1 className="">Misi</h1>
 
-          <p className="text-center text-white px-5 mt-3 h5">
+          <p className="text-center text-white px-5 mt-3 h5" data-aos="fade-up">
             menyediakan bucket bunga berkualitas tinggi dengan desain kreatif
             dan menarik, sambil menjaga komitmen terhadap kualitas keberlanjutan
             lingkungan, dan kontribusi sosial.
