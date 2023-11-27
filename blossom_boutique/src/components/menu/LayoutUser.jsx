@@ -29,27 +29,27 @@ const LayoutUser = (props) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Container>
           <Navbar.Collapse className="justify-content-end">
-            <Link className="m-2 link-title" to="/admin/dashboard">
+            <a className="m-2 link-title" href="#beranda">
               Beranda
-            </Link>
-            <Link className="link-title m-2" to="/admin/product">
+            </a>
+            <a className="link-title m-2" href="#visimisi">
               Visi & Misi
-            </Link>
-            <Link className="link-title m-2" to="/admin/sale">
+            </a>
+            <a className="link-title m-2" href="#aboutus">
               Tentang Kami
-            </Link>
-            <Link className="link-title m-2" to="/admin/sale">
+            </a>
+            <a className="link-title m-2" href="#whyus">
               Keunggulan Pelayanan
-            </Link>
-            <Link className="link-title m-2" to="/admin/sale">
+            </a>
+            <a className="link-title m-2" href="#produk">
               Produk
-            </Link>
+            </a>
             <Link className="link-title m-2" to="/admin/sale">
               Ulasan
             </Link>
-            <Link className="link-title m-2" to="/admin/sale">
+            <a className="link-title m-2" href="#kontak">
               Kontak
-            </Link>
+            </a>
             {links
               .filter((link) => link.role === role)
               .map((link, index) => (

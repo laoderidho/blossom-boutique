@@ -3,7 +3,7 @@ import jumbotron from '../../img/jumbotron.png'
 
 const Jumbotron = () => {
   return (
-    <div className='d-flex justify-content-end mx-1'>
+    <div id="beranda" className='d-flex justify-content-end mx-1'>
         <img src={jumbotron} alt=""  className='float-rigth'/>
     </div>
   )

@@ -77,6 +77,7 @@ const Login = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
+                    
                   </Col>
                   <Col className="flex-column d-flex mb-3">
                     <Form.Label className="form-control-label">
@@ -85,7 +86,7 @@ const Login = () => {
                     <Form.Control
                       type={showpass ? "text" : "password"}
                       name="name"
-                      placeholder=" Isi Nama Lengkap"
+                      placeholder=" Isi password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />

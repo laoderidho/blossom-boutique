@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 
 const VisiMisi = () => {
   return (
-    <div className="visi-misi p-5">
+    <div id='visimisi' className="visi-misi p-5">
       <div className="w-50 mx-5">
         <img src={visi_blossom} alt="" />
         <p className="pt-5 visi-subtitle" data-aos="fade-up">

@@ -24,6 +24,7 @@ import StatusPaket from "../Pages/Users/Checkout/StatusPaket"
 import DashboardKurir from "../Pages/Kurir/DashboardKurir"
 import SudahDikemas from "../Pages/Kurir/Menu/SudahDikemas"
 import Dikirim from "../Pages/Kurir/Menu/Dikirim"
+import Testimoni from "../Pages/Users/Testimoni/Testimoni"
 
 const Router = () => {
   return (
@@ -52,6 +53,7 @@ const Router = () => {
         <Route path="/users/keranjang" element={<Keranjang />} />
         <Route path="/users/checkout/:id" element={<Checkout />} />
         <Route path="/users/status-paket" element={<StatusPaket />} />
+        <Route path="/users/testimoni" element={<Testimoni />} />
 
         {/* Kurir Route */}
         <Route path="/kurir/dashboard" element={<DashboardKurir />} />

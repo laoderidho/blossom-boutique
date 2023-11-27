@@ -27,6 +27,12 @@ const UserSProduct = () => {
             getDataProduct();
         }
     }
+
+    const formatter = new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+      minimumFractionDigits: 0,
+    });
   return (
     <LayoutUser>
       <Container>
@@ -52,7 +58,7 @@ const UserSProduct = () => {
                 <Card.Img variant="top" src={produk.link_photo} className='link-photo-user-produk'/>
                 <Card.Body className='d-flex flex-column align-items-center'>
                    <Link to={`/users/produk/${produk.id}`} className='user-produk-title'>{produk.name}</Link>
-                   <h5>Rp {produk.price}</h5>
+                   <h5>{formatter.format(produk.price)}</h5>
                 </Card.Body>
             </Card>
             ))}

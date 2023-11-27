@@ -4,6 +4,10 @@ import Jumbotron from './components/homepage/Jumbotron'
 import MenuJumbotron from './components/homepage/MenuJumbotron'
 import VisiMisi from './components/homepage/VisiMisi'
 import AboutUs from './components/homepage/AboutUs'
+import WhyUs from './components/homepage/WhyUs'
+import Produk from './components/homepage/Produk'
+import Kontak from './components/homepage/Kontak'
+import Penilaian from './components/homepage/Penilaian'
 
 const Home = () => {
   return (
@@ -12,6 +16,10 @@ const Home = () => {
       <MenuJumbotron />
       <VisiMisi />
       <AboutUs />
+      <Penilaian  />
+      <WhyUs />
+      <Produk />
+      <Kontak />
     </LayoutUser>
   )
 }

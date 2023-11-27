@@ -5,7 +5,7 @@ import about_us_content from '../../img/about_us_content.png'
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id='aboutus'>
         <Row className='m-0'>
             <Col className='m-0'>
                 <img src={about_us_owner} alt=""  className='about_owner'/>

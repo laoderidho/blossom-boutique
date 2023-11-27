@@ -105,6 +105,65 @@ body{
     background-size: contain;
 }
 
+.whyUs{
+    background-image: url('../img/menujumbotron.jpg');
+    background-size: cover;
+}
+
+.whyUsCover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.link-photo-why-us{
+    width: 13rem;
+}
+
+.produk-img{
+    width: 13rem;
+    height: 10rem;
+    background-size: contain;
+}
+
+.subtitle-produk-img{
+    width: 12rem;
+    color: black;
+    font-size: 3rem;
+}
+
+.kontak-img{
+    width: 32rem;
+}
+
+.kontak-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+
+.kontak-subtitle{
+    font-size: 1.2rem;
+}
+
+.img-testimoni{
+  width: 13rem;
+  height: 10rem;
+  margin: 3rem
+}
+
+.coment-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.card-testimoni{
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    background-size: cover;
+    margin: 2rem;
+}
+
 @media screen and (max-width: 768px){
     .about_us{
         width: 100%;

@@ -55,11 +55,11 @@ const LayoutUser = (props) => {
                 <NavDropdown.Item onClick={handleLogout}>
                   Logout
                 </NavDropdown.Item>
-                {/* <NavDropdown.Item>
+                <NavDropdown.Item>
                    <Link to="/users/testimoni" className='nav-link'>
-                      Testimoni
+                      Berikan testimoni
                    </Link>
-                </NavDropdown.Item> */}
+                </NavDropdown.Item>
               </NavDropdown>
             </Navbar.Collapse>
           </Container>
