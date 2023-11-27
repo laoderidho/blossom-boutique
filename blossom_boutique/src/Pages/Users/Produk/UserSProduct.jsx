@@ -54,7 +54,7 @@ const UserSProduct = () => {
 
         <Row>     
             {dataProduk.map((produk) => (
-            <Card className="m-3 border-0 col-md-4">
+            <Card className="m-3 border-0 col-md-3">
                 <Card.Img variant="top" src={produk.link_photo} className='link-photo-user-produk'/>
                 <Card.Body className='d-flex flex-column align-items-center'>
                    <Link to={`/users/produk/${produk.id}`} className='user-produk-title'>{produk.name}</Link>

@@ -11,7 +11,7 @@ const Produk = () => {
     const res = await axios.get(
         "https://6561ebbadcd355c08324546c.mockapi.io/Product"
     );
-    setDataProduk(res.data);
+    setDataProduk(res.data);    
     };
 
     useEffect(() => {
@@ -35,7 +35,7 @@ const Produk = () => {
 
         <Row>
             {dataProduk.map((produk) => (
-            <Card className="m-3 border-0 col-md-4">
+            <Card className="m-3 border-0 col-md-3">
                 <Card.Img
                 variant="top"
                 src={produk.link_photo}

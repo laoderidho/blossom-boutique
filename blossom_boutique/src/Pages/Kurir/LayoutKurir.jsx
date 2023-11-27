@@ -44,7 +44,7 @@ const LayoutKurir = (props) => {
             >
               Akan Di Kirim
             </Link>
-            <Link className="nav-link text-dark m-2 title-nav" to="/admin/user">
+            <Link className="nav-link text-dark m-2 title-nav" to="/kurir/sudah-dikirim">
               Sudah Di Kirim
             </Link>
             <NavDropdown title={username} className="text-dark m-3 title-nav">

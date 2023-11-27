@@ -48,6 +48,7 @@ const Dikirim = () => {
               <Card.Text>Total: {item.price}</Card.Text>
               <Card.Text>Alamat: {item.alamat}</Card.Text>
               <Card.Text>Nama Pembeli: {item.nama_user}</Card.Text>
+              <Card.Text>No Telp: {item.no_telp}</Card.Text>
             </Card.Body>
             <Card.Footer>
               <Button

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import LayoutUser from '../../../components/users/LayoutUser'
 import { Card, Row, Col, Button } from 'react-bootstrap'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, Link } from 'react-router-dom'
 import axios from 'axios'
 
 const DetailUsersProduk = () => {
@@ -72,9 +72,6 @@ const DetailUsersProduk = () => {
                 <i class="fa-solid fa-cart-shopping"></i> Masukkan Ke Keranjang
               </Button>
 
-              <Button className="btn btn-success mt-5 m-3">
-                <i class="fa-solid fa-cash-register"></i> Beli Sekarang
-              </Button>
             </Col>
           </Row>
         </Card.Body>

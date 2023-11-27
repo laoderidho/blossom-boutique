@@ -77,7 +77,7 @@ const Login = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
-                    
+                    <Form.Text className="text-danger">{error}</Form.Text>
                   </Col>
                   <Col className="flex-column d-flex mb-3">
                     <Form.Label className="form-control-label">
@@ -90,6 +90,7 @@ const Login = () => {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
+                    <Form.Text className="text-danger">{error}</Form.Text>
                   </Col>
                 </Row>
                 <Row className="flex-column">

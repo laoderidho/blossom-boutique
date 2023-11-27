@@ -25,6 +25,7 @@ import DashboardKurir from "../Pages/Kurir/DashboardKurir"
 import SudahDikemas from "../Pages/Kurir/Menu/SudahDikemas"
 import Dikirim from "../Pages/Kurir/Menu/Dikirim"
 import Testimoni from "../Pages/Users/Testimoni/Testimoni"
+import Sampai from "../Pages/Kurir/Menu/Sampai"
 
 const Router = () => {
   return (
@@ -59,6 +60,8 @@ const Router = () => {
         <Route path="/kurir/dashboard" element={<DashboardKurir />} />
         <Route path="/kurir/sudah-dikemas" element={<SudahDikemas />} />
         <Route path="/kurir/dikirim" element={<Dikirim />} />
+        <Route path="/kurir/sudah-dikirim" element={<Sampai />} />
+
       </Routes>
     </BrowserRouter>
   )

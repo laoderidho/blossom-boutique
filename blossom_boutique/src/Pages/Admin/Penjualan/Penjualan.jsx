@@ -36,6 +36,7 @@ const Penjualan = () => {
           await axios.put(`https://6561ed2edcd355c0832456ad.mockapi.io/checkout/${id}`, {
             status: message,
           });
+          getDataKeranjang();
         } catch (error) {
           
         }
@@ -72,6 +73,7 @@ const Penjualan = () => {
               <Card.Text>Alamat: {item.alamat}</Card.Text>
               <Card.Text>Nama Produk: {item.nama_produk}</Card.Text>
               <Card.Text>Nama User: {item.nama_user}</Card.Text>
+              <Card.Text>No Telp: {item.no_telp}</Card.Text>
               <Button variant="primary">Status: {item.status}</Button>
             </Card.Body>
             <Card.Footer>
